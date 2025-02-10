@@ -131,4 +131,21 @@ document.addEventListener("DOMContentLoaded", function () {
           document.getElementById('registration-page').classList.add('hidden');
         }
       });
+
+    function () {
+    const emailInput = document.querySelector('.reg-rectangle input[placeholder="Email"]');
+    const passwordInput = document.querySelector('.reg-rectangle input[placeholder="Пароль"]');
+    const createAccountButton = document.querySelector('.reg-submit');
+
+    function updateButtonState() {
+        if (emailInput.value.trim() !== '' && passwordInput.value.trim() !== '') {
+            createAccountButton.classList.add('active');
+        } else {
+            createAccountButton.classList.remove('active');
+        }
+    }
+
+    emailInput.addEventListener('input', updateButtonState);
+    passwordInput.addEventListener('input', updateButtonState);
+        
 });
