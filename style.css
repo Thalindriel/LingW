@@ -2128,3 +2128,13 @@ button {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.reg-submit {
+    background: #b0b0b0;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.reg-submit.active {
+    background: #4e99b5;
+    transform: scale(1.05);
+}
