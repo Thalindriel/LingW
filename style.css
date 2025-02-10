@@ -2074,10 +2074,11 @@ button {
   justify-content: center;
   margin-bottom: 50px;
   cursor: pointer;
+  color:#4F9AB6;
 }
 
 .reg-create-account {
-  color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
   font-family: Gilroy, var(--default-font-family);
   font-size: 15px;
   font-weight: 800;
@@ -2127,14 +2128,4 @@ button {
   color: #4e99b5;
   text-decoration: underline;
   cursor: pointer;
-}
-
-.reg-submit {
-    background: #b0b0b0;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.reg-submit.active {
-    background: #4e99b5;
-    transform: scale(1.05);
 }
