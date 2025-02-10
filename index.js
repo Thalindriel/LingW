@@ -132,20 +132,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-    function () {
-    const emailInput = document.querySelector('.reg-rectangle input[placeholder="Email"]');
+ const emailInput = document.querySelector('.reg-rectangle input[placeholder="Email"]');
     const passwordInput = document.querySelector('.reg-rectangle input[placeholder="Пароль"]');
     const createAccountButton = document.querySelector('.reg-submit');
 
-    function updateButtonState() {
-        if (emailInput.value.trim() !== '' && passwordInput.value.trim() !== '') {
-            createAccountButton.classList.add('active');
-        } else {
-            createAccountButton.classList.remove('active');
+    if (emailInput && passwordInput && createAccountButton) {
+        function updateButtonState() {
+            if (emailInput.value.trim() !== '' && passwordInput.value.trim() !== '') {
+                createAccountButton.classList.add('active');
+            } else {
+                createAccountButton.classList.remove('active');
+            }
         }
+        emailInput.addEventListener('input', updateButtonState);
+        passwordInput.addEventListener('input', updateButtonState);
     }
-
-    emailInput.addEventListener('input', updateButtonState);
-    passwordInput.addEventListener('input', updateButtonState);
-        
 });
