@@ -112,53 +112,39 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    document.querySelector('.register-button').addEventListener('click', function () {
-        document.getElementById('registration-page').classList.remove('reg-hidden');
-    });
-      
-      document.querySelector('.login-link').addEventListener('click', function () {
-        document.getElementById('registration-page').classList.add('hidden');
-      });
-      
-      document.querySelector('.rectangle-3').addEventListener('click', function () {
-        const email = document.querySelector('.input-button').value.trim();
-        const password = document.querySelector('.input-button-2').value.trim();
-      
-        if (email === '' || password === '') {
-          alert('Пожалуйста, заполните все поля формы.');
-        } else {
-          alert('Регистрация прошла успешно!');
-          document.getElementById('registration-page').classList.add('hidden');
-        }
-      });
+    const registrationPage = document.getElementById('registration-page');
+    const registerButton = document.querySelector('.register-button');
+    const loginLink = document.querySelector('.login-link');
+    const createAccountButton = document.querySelector('.reg-submit');
 
-    function () {
-    document.querySelector('.register-button')?.addEventListener('click', function () {
-        document.getElementById('registration-page').classList.remove('reg-hidden');
-    });
+    if (registerButton && registrationPage) {
+        registerButton.addEventListener('click', function () {
+            registrationPage.classList.remove('reg-hidden');
+        });
+    }
 
-    document.querySelector('.login-link')?.addEventListener('click', function () {
-        document.getElementById('registration-page').classList.add('hidden');
-    });
+    if (loginLink && registrationPage) {
+        loginLink.addEventListener('click', function () {
+            registrationPage.classList.add('reg-hidden');
+        });
+    }
 
     document.querySelector('.rectangle-3')?.addEventListener('click', function () {
-        const email = document.querySelector('.reg-rectangle:nth-of-type(1) input')?.value.trim();
-        const password = document.querySelector('.reg-rectangle:nth-of-type(2) input')?.value.trim();
+        const email = document.querySelector('.input-button')?.value.trim();
+        const password = document.querySelector('.input-button-2')?.value.trim();
         if (!email || !password) {
             alert('Пожалуйста, заполните все поля формы.');
         } else {
             alert('Регистрация прошла успешно!');
-            document.getElementById('registration-page').classList.add('hidden');
+            registrationPage.classList.add('reg-hidden');
         }
     });
 
-    // Убедимся, что элементы существуют
-    const emailInput = document.querySelector('.reg-rectangle:nth-of-type(1) input');
-    const passwordInput = document.querySelector('.reg-rectangle:nth-of-type(2) input');
+    const emailInput = document.querySelector('.reg-rectangle input[placeholder="Email"]');
+    const passwordInput = document.querySelector('.reg-rectangle input[placeholder="Пароль"]');
 
-    if (emailInput && passwordInput) {
+    if (emailInput && passwordInput && createAccountButton) {
         function updateButtonState() {
-            const createAccountButton = document.querySelector('.reg-submit');
             if (emailInput.value.trim() !== '' && passwordInput.value.trim() !== '') {
                 createAccountButton.style.opacity = '1';
             } else {
