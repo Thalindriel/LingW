@@ -1740,7 +1740,7 @@ button {
   transition: all 0.3s ease;
 }
 
-.register-button:hover, .login-button:hover, .signup:hover, .trial-class:hover, .telegram-contact:hover, .contact-1f:hover {
+.register-button:hover, .login-button:hover, .signup:hover, .trial-class:hover, .telegram-contact:hover, .contact-1f:hover, .reg-create-account:hover {
   transform: scale(1.05);
   opacity: 0.9;
 }
