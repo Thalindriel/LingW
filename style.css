@@ -2067,8 +2067,8 @@ button {
 }
 
 .reg-rectangle.reg-submit {
-  width: 284px;
-  height: 46px;
+  width: 305px;
+  height: 21px;
   display: flex;
   align-items: center;
   justify-content: center;
