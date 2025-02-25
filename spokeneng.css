@@ -757,7 +757,7 @@ button {
   height: 40px;
   top: 134.082px;
   left: 125.151px;
-  background: url(./assets/images/1f5b797a-7a23-45b7-8ab7-25eb8bcc2f06.png)
+  background: url(./assets/images/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 48;
@@ -786,7 +786,7 @@ button {
   height: 40px;
   top: 310.082px;
   left: 455px;
-  background: url(./assets/images/dbf04aeb-9af8-4424-9bf9-a2f437b04213.png)
+  background: url(./assets/images/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 45;
@@ -842,7 +842,7 @@ button {
   height: 40px;
   top: 3.85px;
   left: 126.003px;
-  background: url(./assets/images/a00928d9-371b-4205-abc0-626224eacc1c.png)
+  background: url(./assets/images/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 42;
