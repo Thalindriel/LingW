@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	transition: background 0.3s ease-in-out;
 }
 ol, ul {
 	list-style: none;
@@ -1102,4 +1103,26 @@ button {
   background: url(./assets/img/mujeres.svg)
     no-repeat center;
   background-size: cover;
+}
+.login-button, .register, .navigation span, .submit-application {
+transition: transform 0.3s ease-in-out;
+}
+.login-button:hover, .register:hover, .navigation span:hover, .submit-application:hover {
+transform: scale(1.1);
+}
+.guertin, .lainez, .ernest, .coleman {
+transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+.guertin:hover, .lainez:hover, .ernest:hover, .coleman:hover {
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.fade-in {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+opacity: 1;
+transform: translateY(0);
 }
