@@ -94,7 +94,7 @@ button {
   position: relative;
   width: 40px;
   height: 40px;
-  background: url(./assets/images/381df40f-3ea3-4f9f-bc1f-02535af6b211.png)
+  background: url(./assets/img/logo_icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 14;
@@ -479,7 +479,7 @@ button {
   height: 78.489px;
   top: -1.952px;
   left: -3.491px;
-  background: url(./assets/images/b6eb1574-682f-41d9-8d44-3ddc968df7b2.png)
+  background: url(./assets/img/arrow_vector.svg)
     no-repeat center;
   background-size: cover;
   z-index: 51;
@@ -532,7 +532,7 @@ button {
   position: relative;
   width: 333px;
   height: 333px;
-  background: url(./assets/images/46df172b-b648-4208-a827-a2995d54463a.png)
+  background: url(./assets/img/guertin.svg)
     no-repeat center;
   background-size: cover;
   z-index: 64;
@@ -543,7 +543,7 @@ button {
   position: relative;
   width: 333px;
   height: 333px;
-  background: url(./assets/images/eeea1355-3398-47c8-aece-322d131333a4.png)
+  background: url(./assets/img/lainez.svg)
     no-repeat center;
   background-size: cover;
   z-index: 65;
@@ -554,7 +554,7 @@ button {
   position: relative;
   width: 333px;
   height: 333px;
-  background: url(./assets/images/0e046df9cedc0158bc774419d2a7699eb38c7dd3.png)
+  background: url(./assets/img/ernest.svg)
     no-repeat center;
   background-size: cover;
   z-index: 66;
@@ -565,7 +565,7 @@ button {
   position: relative;
   width: 333px;
   height: 333px;
-  background: url(./assets/images/9cd443507072de991465f32dba2d2f5143468351.png)
+  background: url(./assets/img/coleman.svg)
     no-repeat center;
   background-size: cover;
   z-index: 67;
@@ -729,7 +729,7 @@ button {
   height: 286.433px;
   top: -2px;
   left: 329.849px;
-  background: url(./assets/images/b6f790f5-a595-488b-ad6a-b13278c7d4b6.png)
+  background: url(./assets/img/Vector_fir.svg)
     no-repeat center;
   background-size: cover;
   z-index: 49;
@@ -814,7 +814,7 @@ button {
   width: 938.645px;
   height: 286.432px;
   margin: 26.15px 0 0 655.997px;
-  background: url(./assets/images/a7a5ffab-e979-49ae-b1c7-e12ea2718315.png)
+  background: url(./assets/img/Vector_sec.svg)
     no-repeat center;
   background-size: cover;
   z-index: 50;
@@ -888,7 +888,7 @@ button {
   height: 94.05%;
   top: 0;
   left: 56.88%;
-  background: url(./assets/images/ea9ba086-eb98-4263-8630-72e105a1ca79.png)
+  background: url(./assets/img/write_icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 84;
@@ -943,7 +943,7 @@ button {
   position: relative;
   width: 45px;
   height: 48.306px;
-  background: url(./assets/images/4f734640-162e-4b26-bec4-2a5fb86e7b8d.png)
+  background: url(./assets/img/arrow_down_icon.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 83;
@@ -1099,7 +1099,7 @@ button {
   height: 1190px;
   top: 0;
   left: 0;
-  background: url(./assets/images/0430c13e-a9ff-4bd0-aa5f-59ff2ddfc303.png)
+  background: url(./assets/img/mujeres.svg)
     no-repeat center;
   background-size: cover;
 }
