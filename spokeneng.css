@@ -757,7 +757,7 @@ button {
   height: 40px;
   top: 134.082px;
   left: 125.151px;
-  background: url(./assets/images/accept_icon.svg)
+  background: url(./assets/img/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 48;
@@ -786,7 +786,7 @@ button {
   height: 40px;
   top: 310.082px;
   left: 455px;
-  background: url(./assets/images/accept_icon.svg)
+  background: url(./assets/img/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 45;
@@ -842,7 +842,7 @@ button {
   height: 40px;
   top: 3.85px;
   left: 126.003px;
-  background: url(./assets/images/accept_icon.svg)
+  background: url(./assets/img/accept_icon.svg)
     no-repeat center;
   background-size: cover;
   z-index: 42;
