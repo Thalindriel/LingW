@@ -88,15 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    const learnMoreButtons = document.querySelectorAll('.learn-more-button');
-
-    learnMoreButtons.forEach(button => {
-        button.addEventListener('click', function (e) {
-            e.preventDefault();
-            alert('Вы выбрали курс! Мы свяжемся с вами для уточнения деталей.');
-        });
-    });
-
     const inputs = document.querySelectorAll('.name-input, .phone-input, .email-input');
     inputs.forEach(input => {
         input.addEventListener('focus', function () {
